@@ -1,0 +1,16 @@
+/*DEVELOPER: Elijah Cozier, IS117-104, Spring, 2022 */
+body {
+    background-color: rgb(60, 59, 63);
+}
+footer {
+    position: fixed;
+    color: #ffffff;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(104, 126, 145);
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
