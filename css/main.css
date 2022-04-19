@@ -1,4 +1,9 @@
 /*DEVELOPER: Elijah Cozier, IS117-104, Spring, 2022 */
+.navbar {
+    position: fixed;
+    z-index: 100;
+}
+
 body {
     background-color: #212529;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
