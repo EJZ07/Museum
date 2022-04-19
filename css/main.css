@@ -1,6 +1,7 @@
 /*DEVELOPER: Elijah Cozier, IS117-104, Spring, 2022 */
 body {
-    background-color: rgb(60, 59, 63);
+    background-color: #212529;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 footer {
     position: fixed;
