@@ -5,7 +5,7 @@
     .container-1 {
         height: 140%;
         width: 100%;
-        background-image: url(../images/piano.jpg);
+        background-image: url(../images/blender-software-logo-1.jpg);
       
     }
 
@@ -28,15 +28,15 @@ h1 {
     color: white;
     width: 55em;
     padding-top: 2em;
-    filter: drop-shadow(30px 10px 75px #000000);
+    filter: drop-shadow(30px 10px 90px #000000);
     
 }
 
 
 .container-1 {
-    height: 110%;
+    height: 140%;
     width: 100%;
-    background-image: url(../images/piano.jpg);
+    background-image: url(../images/Blender-3.0.png);
   
 }
 
@@ -45,13 +45,18 @@ h1 {
     font-size: 12em;
     line-height: .74em;
     letter-spacing: -17px;
+    filter: drop-shadow(30px 100px 90px #000000);
 }
 
 
 .container-1-5 {
     height: 18%;
     width: 100%;
-    background-image: url(../images/guitar.jpg);
+    background-image: url(../images/adobe_animate.jpg);
+}
+
+.veiw{
+    padding-top: 70em;
 }
 
 .container-1-5 h2 {
@@ -59,6 +64,7 @@ h1 {
     font-size: 12em;
     line-height: .74em;
     letter-spacing: -17px;
+    filter: drop-shadow(30px 100px 90px #000000);
 }
 
 .container-2 h2{
@@ -68,6 +74,7 @@ h1 {
     padding-top: 5em;
     padding-bottom: 2em;
     text-align: center;
+    filter: drop-shadow(100px 100px 90px #000000);
 }
 
 .container-2 .card {
