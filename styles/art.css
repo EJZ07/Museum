@@ -1,0 +1,87 @@
+
+/*DEVELOPER: Elijah Cozier, IS117-104, Spring, 2022 */
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .container-1 {
+        height: 140%;
+        width: 100%;
+        background-image: url(../images/blender-software-logo-1.jpg);
+      
+    }
+
+    .veiw{
+        padding-top: 20em;
+    }
+
+  }
+
+h1 {
+    color: white;
+    letter-spacing: -18px;
+    font-size: 11em;
+    line-height: 1.2em;
+    background-color: rgb(104, 126, 145);
+
+}
+
+.boxes {
+    color: white;
+    width: 55em;
+    padding-top: 2em;
+    filter: drop-shadow(30px 10px 90px #000000);
+    
+}
+
+
+.container-1 {
+    height: 140%;
+    width: 100%;
+    background-image: url(../images/Blender-3.0.png);
+  
+}
+
+.container-1 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12em;
+    line-height: .74em;
+    letter-spacing: -17px;
+    filter: drop-shadow(30px 100px 90px #000000);
+}
+
+
+.container-1-5 {
+    height: 18%;
+    width: 100%;
+    background-image: url(../images/adobe_animate.jpg);
+}
+
+.veiw{
+    padding-top: 70em;
+}
+
+.container-1-5 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12em;
+    line-height: .74em;
+    letter-spacing: -17px;
+    filter: drop-shadow(30px 100px 90px #000000);
+}
+
+.container-2 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    text-align: center;
+    filter: drop-shadow(100px 100px 90px #000000);
+}
+
+.container-2 .card {
+    max-width: 45rem;
+}
+
+.container .content {
+    padding-left: 46.333%;
+}
+

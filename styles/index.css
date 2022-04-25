@@ -1,0 +1,58 @@
+/*DEVELOPER: Elijah Cozier, IS117-104, Spring, 2022 */
+.card {
+    color: black;
+    
+}
+
+.card .card-text {
+    text-align: justify;
+}
+
+.card .card {
+    padding-bottom: 2em;
+
+}
+
+.card .img {
+    height: fit-content;
+}
+
+.container-1 {
+    width: 100em;
+}
+
+.side {
+    max-width: 25em;
+    height: 50em;
+
+   
+}
+
+
+h1 {
+    /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    color: white;
+    letter-spacing: -18px;
+    font-size: 200px;
+    line-height: 1.2em;
+    background-color: rgb(104, 126, 145);
+
+}
+
+@media screen and (max-width:900px) {
+    /*
+    img {
+        width:100%;
+    }
+    .container {
+        max-width:100%;
+        width: 100%;
+    }
+    */ 
+    .text-center{
+        width:100%;
+        float:left;
+        margin:0;
+    }
+    }
+

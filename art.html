@@ -1,0 +1,193 @@
+<!-- DEVELOPER: Elijah Cozier, IS117-104, Spring 2022 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="styles/art.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Elijah's Artworks</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tutorial
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="music.html">Music</a>
+                                <a class="dropdown-item" href="art.html">Art</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+           
+        </div>
+        <h1>Art Tutorials</h1>
+        <div class="container-1">
+            <div class="row">
+              <div class="view-1">
+                      <div class="boxes">
+                         <h2>Blender Tutorials</h2>
+                      </div>
+              </div>
+              <div class="view"><b>
+                <button type="button" class="btn btn-outline-light btn-lg">VIEW Tutorial</button>
+                </div>
+            </div>
+              
+        </div>
+        <div class="container-1-5">
+            <div class="row">
+                <div class="view-1">
+                        <div class="boxes">
+                           <h2>Animation Tutorials</h2>
+                        </div>
+                </div>
+                <div class="view"><b>
+                  <button type="button" onclick="location.href='//www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U';" class="btn btn-outline-light btn-lg">VIEW Tutorial</button>
+                  </div>
+              </div>
+        </div>
+        <div class="container-2">
+            <div class="row">
+                <div class="title-2">
+                    <h2>General Art Tutorials</h2>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <img class="card-img-top" src="images/Shapespng.png" alt="music staff">
+                        <h5 class="card-title">Shapes & Forms</h5>
+                        <p class="card-text">Learn about creating diffetent shapes from different angels to build knowledge on forms and their perspectives </p>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 2 mins ago</small>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <img class="card-img-top" src="images/wheel.jpeg" alt="Card image cap">
+                        <h5 class="card-title">Color schemes</h5>
+                        <p class="card-text">Learn about color theory and how to blend colors</p>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <img class="card-img-top" src="images/face.jpg" alt="Card image cap">
+                        <h5 class="card-title">Faces</h5>
+                        <p class="card-text">Learn about the structure of a face</p>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <img class="card-img-top" src="images/Animal.jpg" alt="music staff">
+                        <h5 class="card-title">Animals</h5>
+                        <p class="card-text">Learn the constructs of certain animals. (Dogs, Horses, Tigers, etc.)</p>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <img class="card-img-top" src="images/human-anatomy-drawing-sketches-1.jpg" alt="Card image cap">
+                        <h5 class="card-title">The human body</h5>
+                        <p class="card-text">Learn how to construct the human body as well as the different body types</p>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <img class="card-img-top" src="images/nature-scenery-drawing-for-begin-1140x445.jpg" alt="Card image cap">
+                        <h5 class="card-title">Nature</h5>
+                        <p class="card-text">Learn how to draw scenery such as trees, grass, mountains, etc</p>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+       
+ 
+    </div>
+      
+ <footer>
+     <div class="container">
+        <div class="row">
+            <span>&copy; Elijah Cozier, 2022 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
